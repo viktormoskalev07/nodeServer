@@ -1,27 +1,19 @@
 {
-  "name": "express-vercel",
+  "name": "nodeserver",
   "version": "1.0.0",
-  "description": "Deploy express js to vercel.",
-  "main": "index.js",
-  "engines": {
-    "node": "14.x"
-  },
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon index.js",
     "push": "git add . && git commit -m 'autocommmit'&&  git push origin main"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hatuanem199801/express-vercel.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hatuanem199801/express-vercel/issues"
-  },
-  "homepage": "https://github.com/hatuanem199801/express-vercel#readme",
-  "dependencies": {
-    "express": "^4.17.1"
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
   }
 }
