@@ -1,0 +1,11 @@
+Model Information:
+* title:	Toy Story - Wheezy
+* source:	https://sketchfab.com/3d-models/toy-story-wheezy-504bc9c044784fe6b8ab9e314090c08d
+* author:	TatianaDevos (https://sketchfab.com/TatianaDevos)
+
+Model License:
+* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Toy Story - Wheezy" (https://sketchfab.com/3d-models/toy-story-wheezy-504bc9c044784fe6b8ab9e314090c08d) by TatianaDevos (https://sketchfab.com/TatianaDevos) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)

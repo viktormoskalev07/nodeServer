@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+  <style>
+
+    .grid{
+      position: fixed;
+      height: 100vh;
+      gap: 10px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      justify-content: center;
+      align-items:center;
+      align-content: center;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 50px);
+      grid-template-rows:repeat(auto-fill, 50px) ;
+    }
+    .item{
+      outline: solid red 1px;
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+ 
+  <div class="grid">
+  
+  </div>
+ 
+ <script>
+   const grid = document.querySelector('.grid')
+   const makeGrid= ()=>{
+    grid.innerHTML='';
+     const h =Math.floor(window.innerWidth/60 )  ;
+         const w  =Math.floor(window.innerHeight/60 ) 
+         for( let i = 0 ; i<h*w ; i++){
+           const div = document.createElement('div');
+           div.className='item'; 
+           grid.append(div);
+         }
+   }
+   makeGrid();
+   window.addEventListener('resize' , makeGrid)
+
+ 
+
+ const items = document.querySelectorAll('.item');
+ 
+
+ </script>
+
+
+</body>
+</html>
